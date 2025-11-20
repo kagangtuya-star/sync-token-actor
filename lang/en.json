@@ -1,0 +1,44 @@
+{
+  "SYNC_TOKEN": {
+    "Settings": {
+      "autoNameSync": {
+        "name": "Auto-sync actor and token names",
+        "hint": "Whenever an actor name changes, update the prototype token name and optionally refresh tokens already on the scene."
+      },
+      "syncSceneTokens": {
+        "name": "Update placed tokens",
+        "hint": "Propagate synchronized names and images to tokens that already exist on the current scene (requires ownership)."
+      },
+      "autoImageSync": {
+        "name": "Auto-sync token image",
+        "hint": "Keep the prototype token image equal to the actor portrait. You can still run manual sync from the sheet panel."
+      },
+      "disableTokenRing": {
+        "name": "Disable token ring on sync",
+        "hint": "When automatic sync runs, turn off the prototype token ring (and matching scene tokens) so the portrait is not obscured."
+      },
+      "panelEnabled": {
+        "name": "Show sync panel on actor sheets",
+        "hint": "Display a minimal overlay with both images and quick actions."
+      },
+      "panelPosition": {
+        "name": "Panel position",
+        "hint": "Choose where the sync panel should appear inside the actor portrait region.",
+        "options": {
+          "bottomRight": "Bottom right",
+          "bottomLeft": "Bottom left",
+          "topRight": "Top right",
+          "topLeft": "Top left"
+        }
+      }
+    },
+    "Panel": {
+      "tokenImage": "Token Image",
+      "syncImage": "Sync token image from actor portrait",
+      "toggleForce": "Always auto-sync this actor",
+      "syncDone": "Token image synchronized",
+      "forceOn": "Always-sync enabled for this actor",
+      "forceOff": "Always-sync disabled for this actor"
+    }
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "SYNC_TOKEN": {
+    "Settings": {
+      "autoNameSync": {
+        "name": "自动同步角色与标记名称",
+        "hint": "当角色名称发生变化时，自动更新原型标记的名称，并可选择同步场景中已有的标记。"
+      },
+      "syncSceneTokens": {
+        "name": "同步场景中的标记",
+        "hint": "将同步后的名称与图片立即写入当前场景里的相关标记（需要拥有权）。"
+      },
+      "autoImageSync": {
+        "name": "自动同步标记图片",
+        "hint": "保持原型标记的图片与角色头像一致，同时保留面板中的手动同步按钮。"
+      },
+      "disableTokenRing": {
+        "name": "同步时关闭标记角色环",
+        "hint": "执行自动同步时关闭原型标记（以及场景标记）的角色环，避免遮挡头像底部细节。"
+      },
+      "panelEnabled": {
+        "name": "显示同步面板",
+        "hint": "在角色头像区域叠加轻量面板，展示双图缩略图与快捷操作。"
+      },
+      "panelPosition": {
+        "name": "面板位置",
+        "hint": "选择面板在角色头像区域中的定位。",
+        "options": {
+          "bottomRight": "右下角",
+          "bottomLeft": "左下角",
+          "topRight": "右上角",
+          "topLeft": "左上角"
+        }
+      }
+    },
+    "Panel": {
+      "tokenImage": "标记图片",
+      "syncImage": "将角色图片同步到标记",
+      "toggleForce": "始终为此角色执行自动同步",
+      "syncDone": "标记图片已同步",
+      "forceOn": "已对该角色启用始终同步",
+      "forceOff": "已对该角色关闭始终同步"
+    }
+  }
+}
