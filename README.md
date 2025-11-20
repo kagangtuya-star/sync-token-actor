@@ -1,20 +1,10 @@
-# Sync Token Names
- Simple Foundry VTT module to synchronize actor names with token names.
+# Sync Token Actor 同步角色与Token
 
- ## Usage
-Enable the module and it'll automatically update the token name everytime you change an actor's name. If you want, you can change the name of the token after this.
-If you want to disable the sync, just disable the module.
+- [English](README.en.md)
+- [简体中文](README.zh-CN.md)
 
-## Installation URL
-https://raw.githubusercontent.com/lipefl/sync-token-name/main/module.json
+---
 
-# Em Português
-Um módulo simples para sincronizar os nomes dos atores com seus tokens.
+Simple Foundry VTT v13+ module that keeps actors and prototype tokens in sync. Choose your preferred language above to read the full documentation.
 
-## Uso
-Habilite o módulo e ele irá atualizar automaticamente o nome do token toda vez que você alterar o nome de um ator. Se quiser, pode alterar o nome do token após isso.
-Se quiser disabilitar a sincronização, basta desabilitar o módulo.
-
-## URL de Instalação
-https://raw.githubusercontent.com/lipefl/sync-token-name/main/module.json
-
+同步角色与标记名称/图片，并在角色卡片头像区域提供简洁的可交互面板。
