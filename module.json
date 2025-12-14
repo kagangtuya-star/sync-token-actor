@@ -8,7 +8,7 @@
             "flags": {}
         }
     ],
-    "version": "3.0.0",
+    "version": "3.0.1",
     "compatibility": {
         "minimum": "13",
         "verified": "13"
@@ -34,4 +34,4 @@
             "path": "lang/cn.json"
         }
     ]
-  }
+}
