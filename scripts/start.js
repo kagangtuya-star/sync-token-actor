@@ -1,4 +1,4 @@
-const MODULE_ID = "sync-token-name";
+const MODULE_ID = "sync-token-actor";
 const I18N_PREFIX = "SYNC_TOKEN";
 
 const SETTINGS = {
@@ -241,13 +241,13 @@ function injectSyncPanel(sheet, html) {
   const panel = $(`
     <div class="sync-token-panel ${getSetting(SETTINGS.panelPosition)} ${sameImage ? "" : "has-diff"} ${forceSync ? "force-sync" : ""}">
       <div class="st-images">
-        <img class="token" src="${tokenImg}" title="${localize("Panel.tokenImage" )}" />
+        <img class="token" src="${tokenImg}" title="${localize("Panel.tokenImage")}" />
       </div>
       <div class="st-actions">
-        <button type="button" data-action="sync-image" title="${localize("Panel.syncImage" )}">
+        <button type="button" data-action="sync-image" title="${localize("Panel.syncImage")}">
           <i class="fas fa-sync-alt"></i>
         </button>
-        <button type="button" data-action="toggle-force" title="${localize("Panel.toggleForce" )}">
+        <button type="button" data-action="toggle-force" title="${localize("Panel.toggleForce")}">
           <i class="fas fa-link"></i>
         </button>
       </div>
