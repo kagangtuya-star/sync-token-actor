@@ -11,7 +11,7 @@
     "version": "3.0.2",
     "compatibility": {
         "minimum": "13",
-        "verified": "13"
+        "verified": "14"
     },
     "url": "https://github.com/kagangtuya-star/sync-token-actor",
     "manifest": "https://github.com/kagangtuya-star/sync-token-actor/releases/latest/download/module.json",
